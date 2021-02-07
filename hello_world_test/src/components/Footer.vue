@@ -1,6 +1,6 @@
 <template>
   <div class="foot">
-    
+    <h2>Get in Touch</h2>
     <div class="links">
     <a href="https://github.com/qb1968"><i class="fa fa-github" style="font-size: 40px;"></i></a>
     <a href ="https://www.linkedin.com/in/jonathan-allison68/"><i class="fa fa-linkedin" style="font-size: 40px;"></i></a>
@@ -24,6 +24,7 @@ export default {
 .foot {
   margin-top: 45px;
   background-color: rgb(1, 240, 240);
+  height: 100px;
   
 }
 .con {
