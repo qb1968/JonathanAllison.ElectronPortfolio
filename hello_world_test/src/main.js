@@ -1,5 +1,6 @@
 import {createApp} from  'vue'
 import App from './App.vue'
+
  
 
 // Register the Vue component

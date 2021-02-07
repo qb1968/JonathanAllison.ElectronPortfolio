@@ -10,7 +10,9 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "qrcode.vue": "^3.2.2",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vue-twitter": "^0.1.0",
+    "vuejs-twitter-feed": "^1.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
