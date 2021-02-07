@@ -6,15 +6,15 @@
   <qrcode-vue  :value="value" :size="size" level="H" />
   </div>
   <div class="qr1">
-  <h5 class="tz">Tezos</h5>
+  <h5 class="tz">Tezos Price</h5>
   <qrcode-vue :value="value1" :size="size1" level="H" />
   </div>
   <div class="qr1">
-  <h5 class="bt">Burst</h5>
+  <h5 class="bt">Burst Price</h5>
   <qrcode-vue :value="value2" :size="size2" level="H" />
   </div>
   <div class="qr1">
-  <h5 class="co">Cardano</h5>
+  <h5 class="co">Cardano Price</h5>
   <qrcode-vue :value="value3" :size="size3" level="H" />
 </div>
 </div>
@@ -42,6 +42,7 @@
       QrcodeVue,
       
       
+      
     },
   }
 </script>
@@ -53,6 +54,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding: 1rem;
+    margin-bottom: 20px;
     
 
 }

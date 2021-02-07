@@ -1,13 +1,15 @@
 <template>
   <HelloWorld />
   <QrcodeVue/>
-  
-  
+  <TwitterFeed/>
+  <Footer/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import QrcodeVue from './components/QrCode'
+import TwitterFeed from './components/TwitterFeed'
+import Footer from './components/Footer'
 
 
 export default {
@@ -15,6 +17,8 @@ export default {
   components: {
     HelloWorld,
     QrcodeVue,
+    TwitterFeed,
+     Footer,
     
    
   }
@@ -23,7 +27,7 @@ export default {
 
 <style>
 body {
-  background-color: rgb(201, 179, 146);
+  background-color: rgb(211, 181, 137);
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -31,7 +35,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 </style>
