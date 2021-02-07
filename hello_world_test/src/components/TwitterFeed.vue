@@ -3,16 +3,16 @@
   <a
     class="twitter-timeline"
     :href="src"
-    :data-height="220"
-    :data-width="300"
+    :data-height="420"
+    :data-width="350"
     :data-theme="dark ? 'dark' : 'light'"
     :data-link-color="dataLinkColor"
   ></a>
   <a
     class="twitter-timeline"
     :href="src1"
-    :data-height="220"
-    :data-width="300"
+    :data-height="420"
+    :data-width="350"
     :data-theme="dark ? 'dark' : 'light'"
     :data-link-color="dataLinkColor"
   ></a>
@@ -62,5 +62,7 @@ export default {
 .tweets {
     display: flex;
     justify-content:space-evenly;
+    margin-top: 45px;
+    
 }
 </style>

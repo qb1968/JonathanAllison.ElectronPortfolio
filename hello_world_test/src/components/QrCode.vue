@@ -6,7 +6,8 @@
   <qrcode-vue  :value="value" :size="size" level="H" />
   </div>
   <div class="qr1">
-  <h5 class="tz">Tezos Price</h5>
+  <h5>Tezos Price</h5>
+ 
   <qrcode-vue :value="value1" :size="size1" level="H" />
   </div>
   <div class="qr1">
@@ -29,13 +30,13 @@
     data() {
       return {
         value: 'https://github.com/qb1968',
-        size: 60,
+        size: 150,
         value1: 'https://goldprice.org/cryptocurrency-price/tezos-price',
-        size1: 60,
+        size1: 150,
         value2: 'https://coinranking.com/coin/LUbkfWw7GwJ73+burstcoin-burst',
-        size2: 60,
+        size2: 150,
         value3: 'https://goldprice.org/cryptocurrency-price/cardano-price',
-        size3: 60
+        size3: 150
       }
     },
     components: {
@@ -51,10 +52,10 @@
 
 .qr_codes {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     padding: 1rem;
     margin-bottom: 20px;
+    background-color: aqua;
     
 
 }
@@ -62,8 +63,9 @@
     align-content: center;
 }
 h5 {
-    font-size: 12px;
+    font-size: 16px;
 }
+
 
 
 </style>
