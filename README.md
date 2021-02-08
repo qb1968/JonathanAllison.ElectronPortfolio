@@ -9,3 +9,6 @@ System type	64-bit operating system, x64-based processor
 
 # Node Version
 14.15.1
+
+# Instructions
+*Clone this repo
