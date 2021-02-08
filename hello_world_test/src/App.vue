@@ -1,28 +1,25 @@
 <template>
   <HelloWorld />
-  <QrcodeVue/>
-  <TwitterFeed/>
-  <Footer/>
+  <QrcodeVue />
+  <TwitterFeed />
+  <Footer />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import QrcodeVue from './components/QrCode'
-import TwitterFeed from './components/TwitterFeed'
-import Footer from './components/Footer'
-
+import HelloWorld from "./components/HelloWorld.vue";
+import QrcodeVue from "./components/QrCode";
+import TwitterFeed from "./components/TwitterFeed";
+import Footer from "./components/Footer";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     HelloWorld,
     QrcodeVue,
     TwitterFeed,
-     Footer,
-    
-   
-  }
-}
+    Footer,
+  },
+};
 </script>
 
 <style>
@@ -34,8 +31,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  
+
   margin-top: 20px;
 }
-
 </style>
