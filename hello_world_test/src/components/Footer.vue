@@ -14,8 +14,10 @@
       <a href="../resume.pdf" target="_blank"
         ><i class="fa fa-file" style="font-size: 40px;"
       /></a>
-    </div>
-    <p>Created By Jonathan Allison 2021</p>
+      </div>
+      <p>Created By Jonathan Allison 2021</p>
+    
+    
   </div>
 </template>
 
@@ -30,9 +32,11 @@ export default {
 
 <style>
 .foot {
-  margin-top: 45px;
+   display: flex;
+   flex-direction: column; 
   background-color: rgb(1, 240, 240);
-  height: 100px;
+  height: 150px;
+  
 }
 .con {
   font-size: 24px;
@@ -41,9 +45,10 @@ a {
   color: black;
 }
 .links {
-  display: flex;
+ display: flex;
   justify-content: space-evenly;
   color: black;
   align-items: center;
 }
+
 </style>
