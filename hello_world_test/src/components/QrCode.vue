@@ -5,7 +5,7 @@
     </div>
     <div class="qr1">
       <h5 class>Jonathan Allison</h5>
-      <qrcode-vue :value="value" :size="size" level="H" />
+      <img class="pic" src="../assets/qr-code.png"/> 
     </div>
     <div class="head1">
       <h2>Scan Code For Today's Pricing</h2>
@@ -13,27 +13,27 @@
     <div class="qr_codes">
       <div class="qr1">
         <h5>Tezos Price</h5>
-
-        <qrcode-vue :value="value1" :size="size1" level="H" />
+        <img class="pic" src="../assets/tezos.png"/>
       </div>
       <div class="qr1">
         <h5 class="bt">Burst Price</h5>
-        <qrcode-vue :value="value2" :size="size2" level="H" />
+         <img class="pic" src="../assets/burst.png"/>
       </div>
       <div class="qr1">
         <h5 class="co">Cardano Price</h5>
-        <qrcode-vue :value="value3" :size="size3" level="H" />
+        <img class="pic" src="../assets/burst.png"/>
       </div>
     </div>
   </div>
 </template>
 <script>
-import QrcodeVue from "qrcode.vue";
+
 
 export default {
   data() {
     return {
-      value: "https://thejonathanallison.com",
+      ref:"./assets/qr-code",
+      value: "http://thejonathanallison.com",
       size: 150,
       value1: "https://goldprice.org/cryptocurrency-price/tezos-price",
       size1: 150,
@@ -66,5 +66,9 @@ h5 {
 }
 .head1 {
   padding: 5px;
+}
+.pic {
+  height:200px;
+  width:200px;
 }
 </style>
