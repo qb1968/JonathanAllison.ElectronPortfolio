@@ -59,6 +59,6 @@ export default {
 .tweets {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 45px;
+  padding: 10px;
 }
 </style>
